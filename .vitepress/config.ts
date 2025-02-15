@@ -8,7 +8,7 @@
   import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
   import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
-  import { discordLink, githubRepoLink, siteDescription, siteName, targetDomain } from '../metadata'
+  import { githubRepoLink, mail, TelegramLink, siteDescription, siteName, targetDomain } from '../metadata'
   import { creatorNames, creatorUsernames } from './creators'
   import { sidebar } from './docsMetadata.json'
 
@@ -146,12 +146,17 @@
       },
       socialLinks: [
         { icon: 'github', link: githubRepoLink },
+        { icon: 'telegram', link: TelegramLink },
+        { icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7l8-5V6l-8 5l-8-5v2z"/></svg>'
+        },
+          link: mail },
         // { icon: 'discord', link: discordLink },
       ],
       footer: {
         message: '用 <span style="color: #e25555;">&#9829;</span> 撰写 | Powered by <a class="footer-cc-link" target="_blank" href="https://github.com/nolebase/nolebase">Nólëbase</a>',
         copyright:
-          '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT Larry Shi',
+          '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2025-PRESENT 克喵Kemeow',
       },
       search: {
         provider: 'local',
@@ -222,7 +227,7 @@
       nav: [
         { text: '主页', link: '/' },
         // { text: '笔记', link: '/笔记/' },
-        { text: '知识库', link: '/笔记/' },
+        { text: '笔记', link: '/笔记/' },
         { text: '最近更新', link: '/toc' },
       ],
       sidebar,

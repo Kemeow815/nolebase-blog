@@ -2,13 +2,13 @@
 layout: home
 sidebar: false
 
-title: Larry's Base
-titleTemplate: 纯粹的知识库
+title: 克喵Kemeow Blog
+titleTemplate: 分享资源和生活~
 
 hero:
-  name: Larry Shi's Knowledge Base
-  text: 纯粹的知识库
-  tagline: 知识库基于nolebase项目，替换了昂贵的Obsidian Publish，用于本人学习内容的记录。
+  name: 克喵Kemeow's Blog
+  text: 分享资源和生活~
+  tagline: 个人博客。致力于分享资源和生活。
   image:
     src: /logo.svg
     alt: Vitest
@@ -18,7 +18,7 @@ hero:
       link: /笔记/index
     - theme: alt
       text: GitHub 上浏览
-      link: https://github.com/indexss/nolebase
+      link: https://github.com/Kemeow815/nolebase-v1
 
 features:
   - title: 课程笔记

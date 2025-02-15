@@ -151,10 +151,10 @@ const ExtendedTheme: Theme = {
     
     // Obtain configuration from: https://giscus.app/
     giscusTalk({
-      repo: 'Jackiexiao/nolebase-template',
-      repoId: 'R_kgDOL5WHsg',
-      category: 'Announcements', // default: `General`
-      categoryId: 'DIC_kwDOL5WHss4CfTYs',
+      repo: 'Kemeow815/nolebase-blog',
+      repoId: 'R_kgDON5ASgA',
+      category: 'General', // default: `General`
+      categoryId: 'DIC_kwDON5ASgM4Cm_eC',
       mapping: 'url', // default: `pathname`
       inputPosition: 'top', // default: `top`
       lang: 'zh-CN', // default: `zh-CN`
